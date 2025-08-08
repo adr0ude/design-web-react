@@ -6,7 +6,7 @@ const projects = [
   {
     id: 1,
     title: "Portfólio",
-    image: "/assets/projects.png",
+    image: "/design-web-react/assets/projects.png",
     category: "DESIGN WEB",
     description:
       "Este é um site de portfólio pessoal criado apenas com HTML, CSS e JavaScript. Foi desenvolvido para obtenção de nota parcial na disciplina de Design Web.",
@@ -15,7 +15,7 @@ const projects = [
   {
     id: 2,
     title: "Cartão de Apresentação",
-    image: "/assets/projects2.png",
+    image: "/design-web-react/assets/projects2.png",
     category: "DESIGN WEB",
     description:
       "Este é um cartão de apresentação digital desenvolvido em ReactJS, exibindo foto, nome, cargo, links de contato e uma breve biografia.",
@@ -24,7 +24,7 @@ const projects = [
   {
     id: 3,
     title: "Jogo do Número Secreto",
-    image: "/assets/projects3.png",
+    image: "/design-web-react/assets/projects3.png",
     category: "JOGOS",
     description:
       "Este é um jogo para adivinhar o número correto, foi desenvolvido com HTML, CSS e JavaScript.",

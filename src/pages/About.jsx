@@ -4,7 +4,7 @@ export default function About() {
       <section className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-start">
         <div className="relative w-full md:w-1/3">
           <img
-            src="assets/profilePicture.png"
+            src="/design-web-react/assets/profilePicture.png"
             alt="Profile"
             className="w-full object-cover rounded shadow-md relative z-10"
           />
