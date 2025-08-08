@@ -1,5 +1,5 @@
 {
-  "name": "aprendendo-react",
+  "name": "design-web-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,7 @@
     "start": "react-scripts start",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://adr0ude.github.io/design-web-react/",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "lucide-react": "^0.435.0",
