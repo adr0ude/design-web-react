@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen px-4 py-8 bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+    <main className="flex flex-col items-center justify-center min-h-screen px-4 pt-32 pb-12 bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-200">
       <section className="max-w-md w-full border border-gray-200 dark:border-gray-700 rounded p-6 shadow-md bg-white dark:bg-gray-800">
         <h1 className="text-center text-2xl font-bold mb-2">Converse Comigo</h1>
         <p className="text-center text-sm text-gray-600 dark:text-gray-400 mb-6">
@@ -47,7 +47,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition"
+            className="w-full bg-purple-500 text-white py-2 rounded-full hover:bg-purple-600 transition"
           >
             ENVIAR MENSAGEM
           </button>

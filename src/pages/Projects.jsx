@@ -32,19 +32,18 @@ export default function Projects() {
       : projects.filter((p) => p.category === selectedCategory);
 
   return (
-    <main className="min-h-screen bg-white dark:bg-gray-900 text-center px-4 py-16 text-gray-900 dark:text-white">
+    <main className="min-h-screen bg-white dark:bg-gray-900 text-center px-4 pt-32 pb-12 text-gray-900 dark:text-white transition-colors duration-200">
       <h2 className="text-3xl font-bold mb-2">Projetos em Destaque</h2>
       <p className="text-gray-600 dark:text-gray-400 mb-8">Alguns projetos que desenvolvi</p>
 
-      {/* Botões de filtro */}
       <div className="flex justify-center gap-4 mb-12 flex-wrap">
         {categories.map((cat) => (
           <button
             key={cat}
             onClick={() => setSelectedCategory(cat)}
-            className={`px-4 py-2 rounded transition ${
+            className={`px-4 py-2 rounded-full transition ${
               selectedCategory === cat
-                ? "bg-green-600 text-white"
+                ? "bg-purple-500 text-white"
                 : "bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-100 border border-transparent hover:border-gray-400 dark:hover:border-gray-600"
             }`}
           >
@@ -53,7 +52,6 @@ export default function Projects() {
         ))}
       </div>
 
-      {/* Grid de projetos */}
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {filteredProjects.map((project) => (
           <div

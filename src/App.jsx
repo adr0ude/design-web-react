@@ -6,7 +6,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
-const App = () => {
+export default function App() {
   return (
     <Router>
       <Routes>
@@ -21,5 +21,3 @@ const App = () => {
     </Router>
   );
 };
-
-export default App;
