@@ -10,13 +10,14 @@ export default function Home() {
         </h1>
 
         <h2 className="text-xl md:text-2xl text-purple-500 font-semibold mb-6">
-          desenvolvedor & designer web
+          professor & desenvolvedor
         </h2>
 
         <p className="text-gray-700 dark:text-gray-300 mb-8">
-          Eu crio experiências digitais limpas, responsivas e envolventes com
-          React, Tailwind e um toque de design thinking. Vamos dar vida às
-          ideias.
+          Possuo mais de 10 anos de experiência docente, atuo em pesquisas
+          voltadas ao desenvolvimento de software e hardware, além de coordenar
+          projetos na área de informática básica e capacitação digital na
+          comunidade.
         </p>
 
         <Link

@@ -1,8 +1,9 @@
 export default function Contact() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen px-4 pt-32 pb-12 bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-200">
-      <section className="max-w-md w-full border border-gray-200 dark:border-gray-700 rounded p-6 shadow-md bg-white dark:bg-gray-800">
+      <section className="max-w-md w-full boder boder-gray-600 border-t-8 border-t-purple-500 dark:border-gray-700 rounded-xl p-6 shadow-md bg-white dark:bg-gray-800">
         <h1 className="text-center text-2xl font-bold mb-2">Converse Comigo</h1>
+
         <p className="text-center text-sm text-gray-600 dark:text-gray-400 mb-6">
           Quer solicitar um projeto e/ou bater um papo? <br />
           Sinta-se livre para me enviar uma mensagem.
@@ -10,44 +11,44 @@ export default function Contact() {
 
         <form className="space-y-4">
           <div>
-            <label className="block text-sm font-medium">Nome</label>
+            <label className="block mb-2 text-sm font-medium">Nome</label>
             <input
               type="text"
-              className="w-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white px-3 py-2 rounded outline-none"
+              className="w-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 px-3 py-2 rounded-xl outline-none"
               placeholder="Seu nome"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium">Assunto</label>
+            <label className="block mb-2 text-sm font-medium">Assunto</label>
             <input
               type="text"
-              className="w-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white px-3 py-2 rounded outline-none"
+              className="w-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 px-3 py-2 rounded-xl outline-none"
               placeholder="Assunto"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium">Email</label>
+            <label className="block mb-2 text-sm font-medium">Email</label>
             <input
               type="email"
-              className="w-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white px-3 py-2 rounded outline-none"
+              className="w-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 px-3 py-2 rounded-xl outline-none"
               placeholder="seu@email.com"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium">Mensagem</label>
+            <label className="block mb-2 text-sm font-medium">Mensagem</label>
             <textarea
               rows="5"
-              className="w-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white px-3 py-2 rounded outline-none resize-none"
+              className="w-full border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 px-3 py-2 rounded-xl outline-none resize-none"
               placeholder="Digite sua mensagem aqui..."
             ></textarea>
           </div>
 
           <button
             type="submit"
-            className="w-full bg-purple-500 text-white py-2 rounded-full hover:bg-purple-600 transition"
+            className="w-full bg-purple-500 text-white py-2 rounded-xl shadow-[0_4px_0_#9333EA] active:shadow-none transition-all active:translate-y-1 duration-200"
           >
             ENVIAR MENSAGEM
           </button>
