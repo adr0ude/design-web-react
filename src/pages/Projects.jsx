@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const categories = ["ALL", "DESIGN WEB"];
+const categories = ["ALL", "DESIGN WEB", "JOGOS"];
 
 const projects = [
   {
@@ -9,8 +9,26 @@ const projects = [
     image: "/assets/projects.png",
     category: "DESIGN WEB",
     description:
-      "Este é um site de portfólio pessoal criado apenas com HTML, CSS e JavaScript. Foi desenvolvido para obtenção de nota parcial na disciplina de Design Web",
+      "Este é um site de portfólio pessoal criado apenas com HTML, CSS e JavaScript. Foi desenvolvido para obtenção de nota parcial na disciplina de Design Web.",
     link: "https://adr0ude.github.io/DesignWeb-Portfolio/",
+  },
+  {
+    id: 2,
+    title: "Cartão de Apresentação",
+    image: "/assets/projects2.png",
+    category: "DESIGN WEB",
+    description:
+      "Este é um cartão de apresentação digital desenvolvido em ReactJS, exibindo foto, nome, cargo, links de contato e uma breve biografia.",
+    link: "https://adr0ude.github.io/business-card/",
+  },
+  {
+    id: 3,
+    title: "Jogo do Número Secreto",
+    image: "/assets/projects3.png",
+    category: "JOGOS",
+    description:
+      "Este é um jogo para adivinhar o número correto, foi desenvolvido com HTML, CSS e JavaScript.",
+    link: "https://adr0ude.github.io/game-one/",
   },
 ];
 
@@ -54,7 +72,8 @@ export default function Projects() {
         {filteredProjects.map((project) => (
           <div
             key={project.id}
-            className="rounded overflow-hidden shadow hover:scale-105 transition-transform duration-300 bg-white dark:bg-gray-800"
+            className={`rounded overflow-hidden shadow hover:scale-105 transition-transform duration-300 bg-white dark:bg-gray-800
+    ${expandedProjectId === project.id ? "" : "h-96 overflow-hidden"}`}
           >
             <img
               src={project.image}
