@@ -1,8 +1,9 @@
-# React + Vite
+# Trabalho Computacional 02
+Trabalho apresentado à disciplina de Design Web do curso superior de Bacharelado em Ciência da Computação, do Instituto Federal de Educação, Ciência e Tecnologia do Ceará Campus Tianguá, como requisito para a obtenção de nota parcial na disciplina.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Equipe 03
+Dhiego Cavalcanti da Silveira  
+Leticia Maria Eufrasio Reis  
+Maria Eduarda Araujo Sales  
+Maria Luiza Pereira Sousa  
+Pedro Henrique Silveira Gomes Sabi
